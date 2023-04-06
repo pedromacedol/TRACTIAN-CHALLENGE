@@ -1,7 +1,7 @@
 
 <div align="center">
-<img src="https://tractian.com/tractian-favicon-ia.png" style="height: 70px; width:70px;"/>
-<h1>   TRACTIAN CHALLENGE </h1>
+
+<h1>  <img src="https://tractian.com/tractian-favicon-ia.png" style="height: 40px; width:40px;"/>  TRACTIAN CHALLENGE </h1>
 </div>
 
 decripition

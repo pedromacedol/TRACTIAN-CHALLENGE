@@ -1,8 +1,8 @@
 {
-  "name": "tractian-swefrontend",
+  "name": "tractian-challenge",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://pedromacedol.github.io/TRACTIAN-CHALLENGE/",
+  "homepage": "https://pedromacedol.github.io/TRACTIAN-CHALLENGE",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import { App } from "./App";
 import { customTheme } from "./assets/Styles/theme";
-import { BrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./contexts/auth";
 import { QueryClient, QueryClientProvider } from "react-query";
 

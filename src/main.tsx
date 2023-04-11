@@ -12,7 +12,7 @@ const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <ChakraProvider theme={customTheme}>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <QueryClientProvider client={queryClient}>
         <AuthProvider>
           <App />

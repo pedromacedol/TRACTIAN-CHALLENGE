@@ -2,6 +2,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import ReactDOM from "react-dom/client";
 
 import { App } from "./App";
+import { basename } from "./basename";
 import { customTheme } from "./assets/Styles/theme";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./contexts/auth";
@@ -11,7 +12,7 @@ const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <ChakraProvider theme={customTheme}>
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <QueryClientProvider client={queryClient}>
         <AuthProvider>
           <App />
